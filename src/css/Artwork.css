@@ -1,0 +1,61 @@
+.artwork {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 20px;
+}
+
+.artwork-night {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-color: #333333;
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 20px;
+    background-color: #414141;
+}
+
+.delete-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 20px;
+    background: none;
+}
+
+.delete-button:hover {
+    color: red;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .artwork {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    img {
+        border-radius: 4px;
+        margin-bottom: 5px;
+    }
+
+}
